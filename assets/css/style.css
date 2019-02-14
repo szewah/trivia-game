@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://pictures.ozy.com/pictures/1500xany/8/5/8/40858_Jeopardy.jpg");
+    background-repeat: no-repeat;
+}
+
+.container {
+    font-family: 'Acme', sans-serif;
+    margin: 20px auto;
+    background-color: #ffee42;
+    width: 65%;
+    height: 400px;
+}
+
+h1 {
+    color:purple;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
