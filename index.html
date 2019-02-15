@@ -12,40 +12,74 @@
 <body>
     <div class="container">
         <h1 >Totally Trivial Trivia!</h1>
+        <div id="start-btn-area"></div>
         <div id="quiz-area">
-            <p id="questionMadonna">What was Madonna's first hit?</p>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Borderline</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Lucky Star</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                <label class="form-check-label" for="inlineCheckbox3">Holiday</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                <label class="form-check-label" for="inlineCheckbox4">Everybody</label>
-            </div>
-
-            <p id="questionEightiesFilm">What was the highest grossing 80s movie?</p>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckBox1" value="option1">Back to the Future</input>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckBox2" value="option2">Raiders of the Lost Ark</input>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckBox3" value="option3">E.T</input>
+            <div id="timer">Time Remaining: <span id="countdown">10</span> seconds</div>
+            <div id="questionMusic" class="questions">
+                <p id="question-music">What was Madonna's first hit?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="music" class="checkMusic" value="Borderline">Borderline
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="music" class="checkMusic" value="LuckyStar">Lucky Star
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="music" class="checkMusic" value="Holiday">Holiday
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="music" class="checkMusic" value="Everybody">Everybody
+                </div>
             </div>
 
+            <div id="questionFilms" class="questions">
+                <p id="question-film">What was the highest grossing 80's movie?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="film" class="checkFilm" value="Future">Back to the Future
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="film" class="checkFilm" value="Raiders">Raiders of the Lost Ark
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="film" class="checkFilm" value="ET">E.T.
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="film" class="checkFilm" value="Return">Return of the Jedi
+                </div>
+            </div>
 
+            <div id="questionEvents" class="questions">
+                <p id="question-events">What is NOT an 80's major event?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="events" class="checkEvent" value="Iran">Iran Contra Affair
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="events" class="checkEvent" value="Tiananmen">Tiananmen Square Massacre
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="events" class="checkEvent" value="Berlin">Berlin Wall Falls
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="events" class="checkEvent" value="WWW">World Wide Web debutes
+                </div>
+            </div>
 
-
+            <div id="questionFootball" class="questions">
+                <p id="question-football">Who won the FIFA World Cup in 1986?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="football" class="checkFootball" value="Germany">West Germany
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="football" class="checkFootball" value="Argentina">Argentina
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="football" class="checkFootball" value="Mexico">Mexico
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="football"class="checkFootball"  value="Spain">Spain
+                </div>
+            </div>
         </div>
+        <div id="done-btn-area"></div>
     </div>
     
 

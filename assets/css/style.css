@@ -3,6 +3,8 @@
 }
 
 body {
+    font-size: 18px;
+    text-align: center;
     background-image: url("https://pictures.ozy.com/pictures/1500xany/8/5/8/40858_Jeopardy.jpg");
     background-repeat: no-repeat;
 }
@@ -12,7 +14,7 @@ body {
     margin: 20px auto;
     background-color: #ffee42;
     width: 65%;
-    height: 400px;
+    height: 100%;
 }
 
 h1 {
@@ -20,4 +22,51 @@ h1 {
     text-align: center;
     font-size: 50px;
     padding-top: 20px;
+}
+
+#start-btn-area {
+    padding: 150px;
+}
+
+#start-btn {
+    width: 100%;
+    font-size: 30px;
+}
+
+#done-btn {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.questions {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div #questions p{
+    margin-bottom: 0.10rem;
+}
+
+#result-area {
+    padding: 80px;
+}
+
+#result-title {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1 {
+        color:purple;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #start-btn-area {
+        padding: 0;
+        height: 200px;
+    }
 }
