@@ -106,8 +106,7 @@ $("input:checkbox").on('click', function() {
      }
     else {
         $guess.prop("checked", false)
-    }
-    //if the value are any of the following 
+    } 
 });
 
 
