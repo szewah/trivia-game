@@ -3,7 +3,9 @@
 Built with HTML, CSS, JQuery
   
 ## Here's how the app works
-The player begins the game by pressing the start button. Within the amount of time given, as seen on a timer, the player has to pick all the correct anwers to multiplechoice questions. Once time has run out, the game will show how many answers you got right or wrong..
+The player begins the game by pressing the start button. Within the amount of time given, as seen on a timer, the player has to pick all the correct anwers to multiplechoice questions. Once time has run out, the game will show how many answers you got right or wrong.
+
+https://szewah.github.io/trivia-game/
 
 ## Acknowledgement
 Thanks to the instructors and teaching assistants at Columbia Univeristy Coding Bootcamp.
